@@ -1,7 +1,22 @@
-.u-center {
+// this should probably be layout
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 4.0rem;
+}
+
+.align-center {
   text-align: center;
 }
 
-.u-marg-btm-lrg {
-  margin-bottom: 6rem;
+.mb-lg {
+  margin-bottom: 6.0rem;
+}
+
+.mb-md {
+  margin-bottom: 4.0rem;
+}
+
+.mb-sm {
+  margin-bottom: 2.0rem;
 }

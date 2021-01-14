@@ -1,7 +1,6 @@
 body {
   font-family: $font-stack-primary;
   font-size: 1.6rem;
-  line-height: 1.8;
   color: #fff;
 }
 
@@ -15,27 +14,26 @@ body {
 
   li {
     display: inline;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 3rem;
+    padding-left: 4.0rem;
     color: $color-dark;
   }
 }
 
 .heading-primary {
   text-transform: uppercase;
-  margin-bottom: 4.0rem;
   color: $color-dark;
 
   backface-visibility: hidden;
 
   &-main {
     display: block;
-    font-size: 8.6rem;
+    font-size: 11.0rem;
     font-weight: 400;
     line-height: 1.4;
-    letter-spacing: 1.0rem;
+    letter-spacing: 1.2rem;
   
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -44,7 +42,7 @@ body {
   
   &-sub {
     display: block;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
     
@@ -56,13 +54,27 @@ body {
 
 .heading-secondary {
   display: inline-block;
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   font-weight: 700;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: transparent;
   background-image: linear-gradient($primary, $secondary);
   background-clip: text;
   -webkit-background-clip: text;
-  transition: all .2s;
+}
+
+.about-content {
+  font-family: $font-stack-secondary;
+
+  &-bio {
+    h3 {
+      font-size: 2.0rem;
+      margin-top: -0.4rem;
+    }
+
+    p {
+      line-height: 2.0;
+    }
+  }
 }
