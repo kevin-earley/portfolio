@@ -1,0 +1,28 @@
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.section-about {
+  margin-top: -20vh;
+  padding: 25rem 0;
+  background: $color-dark;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+
+  &-photo {
+    flex-basis: 42%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-bio {
+    flex-basis: 54%;
+  }
+}
